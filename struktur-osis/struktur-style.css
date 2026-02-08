@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8f6ff;
+    font-family: sans-serif;
+    margin-top: 5vh;
+}
+
+h2, p {
+    margin: 0px;
+    padding-left: 20px;
+    color: #003178;
+}
+
+.GroupSwitch p {
+    font-size: 12px;
+}
+
+.PengurusInti, .Sekbid1, .Sekbid2, .Sekbid3, .Sekbid4, .Sekbid5, .Sekbid6, .Sekbid7, .Sekbid8, .Sekbid9, .Sekbid10 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20vh;
+    padding: 50px;
+}
+
+.jabatan {
+    background-color: white;
+    background-image: url('belum ada foto.png');
+    background-size: cover;
+    border-radius: clamp(6px, 10px, 30px);
+    aspect-ratio: 3/4;
+    box-shadow: 0 15px 15px #8AD3FF;
+    transition: transform 300ms ease;
+}
+
+.jabatan:active {
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+.PengurusInti, .Sekbid1, .Sekbid2, .Sekbid3, .Sekbid4, .Sekbid5, .Sekbid6, .Sekbid7, .Sekbid8, .Sekbid9, .Sekbid10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.jabatan {
+    background-color: white;
+    background-image: url('belum ada foto.png');
+    background-size: cover;
+    border-radius: clamp(6px, 10px, 30px);
+    aspect-ratio: 3/4;
+    box-shadow: 0 15px 15px rgba(138, 210, 255, 0.3);
+    transition: transform 300ms ease;
+}
+
+.jabatan:active {
+    transform: scale(1.1);
+}
+}
+#Pembina{
+    
+    
+}
+
+#Wakil {
+    background-image: url('prabowo.png');
+    background-size: cover;
+}
+
+#Ketua {
+    background-image: url('prabowo.png');
+    background-size: cover;
+}
+
+#Sekre1 {
+    
+    
+}
+
+#Sekre2 {
+    
+    
+}
+
+#Sekre3 {
+    
+    
+}
+
+#Benda1 {
+    
+    
+}
+
+#Benda2 {
+    
+    
+}
+
+
